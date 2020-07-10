@@ -5,7 +5,6 @@ router.post("/api/workouts", (req, res) => {
 
 });
 
-
 // Route for getting all workouts
 router.get("/api/workouts", (req, res) => {
 
