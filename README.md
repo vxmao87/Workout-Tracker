@@ -38,17 +38,17 @@ To use this app in your environment:
 
 Using the app, you can add either resistance or cardio exercises to your current or previous workout plan. For resistance exercises, you will need to input the fields in the following screenshot:
 
-![Image](Develop/public/assets/images/workout-tracker-2.png)
+![Image](public/assets/images/workout-tracker-2.png)
 
 For cardio exercises, the fields in the following screenshot are required:
 
-![Image](Develop/public/assets/images/workout-tracker-3.png)
+![Image](public/assets/images/workout-tracker-3.png)
 
 You can view your current workout and the stats of all of your exercises as well.
 
-![Image](Develop/public/assets/images/workout-tracker-1.png)
+![Image](public/assets/images/workout-tracker-1.png)
 
-![Image](Develop/public/assets/images/workout-tracker-4.png)
+![Image](public/assets/images/workout-tracker-4.png)
 
 ## Questions
 
