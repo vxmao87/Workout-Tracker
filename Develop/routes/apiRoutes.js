@@ -10,7 +10,7 @@ router.post("/api/workouts", ({ body }, res) => {
     });
 });
 
-// Route for getting all workouts
+// Route for getting a specific workout
 router.get("/api/workouts", (req, res) => {
     db.Workout.find().sort({ day: -1 }).limit(1)
         .then(dbWorkout => {
@@ -20,7 +20,7 @@ router.get("/api/workouts", (req, res) => {
         })
 });
 
-// Route for grabbing workouts within a certain range
+// Route for grabbing all workouts
 router.get("/api/workouts/range", (req, res) => {
     db.Workout.find({}).then(dbWorkout => {
         res.json(dbWorkout);
